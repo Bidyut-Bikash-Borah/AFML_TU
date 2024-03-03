@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Advanced Functional Material Laboratory</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+     <!-- Topbar Start -->
+    <!-- <div class="container-fluid py-2 d-none d-lg-flex">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                    <small class="me-3"><i class="fa fa-clock me-2"></i>Mon-Sat 09am-5pm, Sun Closed</small>
+                </div>
+                <nav class="breadcrumb mb-0">
+                    <a class="breadcrumb-item small text-body" href="#">Career</a>
+                    <a class="breadcrumb-item small text-body" href="#">Support</a>
+                    <a class="breadcrumb-item small text-body" href="#">Terms</a>
+                    <a class="breadcrumb-item small text-body" href="#">FAQs</a>
+                </nav>
+            </div>
+        </div>
+    </div> -->
+    <!-- Topbar End -->
+
+
+    <!-- Brand Start -->
+    <div class="container-fluid bg-primary text-white pt-4 pb-5 d-none d-lg-flex">
+        <div class="container pb-2">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex">
+                    <img src="img/tu_logo.png" alt="Logo" width="100px">
+                </div>
+                <a href="index.html" class="text-center h2 text-white mb-0">ADVANCED FUNCTIONAL MATERIAL LABORATORY</a>
+                <div class="d-flex">
+                    <img src="img/afml.png" alt="Logo" width="100px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand End -->
+
+<!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <img src="img/afml.png" alt="Logo" width="80px">
+                    <h1 class="text-primary m-0"></span></h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Research</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="research-area.html" class="dropdown-item">Research Area</a>
+                                <a href="research-projects.html" class="dropdown-item">Research Projects</a>
+                            </div>
+                        </div>
+                        <a href="publications.html" class="nav-item nav-link">Publications</a>
+                        <a href="patents.html" class="nav-item nav-link ">Patents and Inventions</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Our Group</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="group_leader.html" class="dropdown-item active">Group Leader</a>
+                                <a href="team.html" class="dropdown-item">Group Members</a>
+                                <a href="alumni.html" class="dropdown-item active">Alumni</a>
+                            </div>
+                        </div>
+                        <a href="open-positions.html" class="nav-item nav-link">Open Positions</a>
+                        <a href="resources.html" class="nav-item nav-link">Resources</a>
+                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+  <!-- Content Container Start -->
+<div id="content_container" class="container-fluid bg-light py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <h1 class="card-title text-center">Alumni</h1>
+                        <div class="tab-container">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="doctoral-tab" data-bs-toggle="tab" data-bs-target="#doctoral" type="button" role="tab" aria-controls="doctoral" aria-selected="true">Doctoral Students</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="masters-tab" data-bs-toggle="tab" data-bs-target="#masters" type="button" role="tab" aria-controls="masters" aria-selected="false">Masters Students</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="trainees-tab" data-bs-toggle="tab" data-bs-target="#trainees" type="button" role="tab" aria-controls="trainees" aria-selected="false">Summer/Winter Trainees</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="doctoral" role="tabpanel" aria-labelledby="doctoral-tab">
+                                    <<div class="list-group">
+                                        <li class="list-group-item">Korobi Konwar (Thesis Submitted) (2023)</li>
+                                        <li class="list-group-item">Bhagyalakhi Baruah (2023)</li>
+                                        <li class="list-group-item">Mayuri Bora (2023)</li>
+                                        <li class="list-group-item">Meenakshi Talukdar (2023)</li>
+                                        <li class="list-group-item">Sushant Kumar Behera (2020)</li>
+                                        <li class="list-group-item">Kashmiri Deka (2019)</li>
+                                        <li class="list-group-item">Kakoli Bhattacharya (2017)</li>
+                                        <li class="list-group-item">Koushik Saikia (2016)</li>
+                                        <li class="list-group-item">Deepak Kumar Jha (2015)</li>
+                                        <li class="list-group-item">Madhulekha Gogoi (2014)</li>
+                                        <li class="list-group-item">Ritusmita Goswami (2013)</li>
+                                        <!-- Add more items as needed -->
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="masters" role="tabpanel" aria-labelledby="masters-tab">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Gayatri Sarkar  (2022-2023)</li>
+                                        <li class="list-group-item">Prarthana Puzari (2022-2023)</li>
+                                        <li class="list-group-item">Nayan Jyoti Sarmah (2022-2023)</li>
+						                <li class="list-group-item">Sudhanshu Sekhar Sahoo (2021-2022)</li>
+						                <li class="list-group-item">Meethi Buragohain (2021-2022)</li>
+                                        <li class="list-group-item">Priyanka Nath (2021-2022)</li>
+                                        <li class="list-group-item">Nitumoni Konwar (2020-2021)</li>
+                                        <li class="list-group-item">Manas Chetry (2020-2021)</li>
+                                        <li class="list-group-item">Niyorjyoti Sharma (2019-2020)</li>
+                                        <li class="list-group-item">Sasanka Jyoti Gogoi (2019-2020)</li>
+                                        <li class="list-group-item">Oishik Nath (2018-2019)</li>
+                                        <li class="list-group-item">Ritashree Bokalial(2018-2019)</li>
+                                        <li class="list-group-item">Sapta Sindhu Paul Chowdhury (2018-2019)</li>
+                                        <li class="list-group-item">Karabi Saikia (2017-2018)</li>
+                                        <li class="list-group-item">Meenakshi Talukdar (2016-2017)</li>
+                                        <li class="list-group-item">Dunasmita Gogoi (2016-2017)</li>
+                                        <li class="list-group-item">Kashmiri Baruah (2016-2017)</li>
+                                        <li class="list-group-item">Arghya Ghosh (2015-2016)</li>
+                                        <li class="list-group-item">Debasis Jana (2015-2016)</li>
+                                        <li class="list-group-item">Meghali Gogoi (2014-2015)</li>
+                                        <li class="list-group-item">Monika Gogoi (2014-2015)</li>
+                                        <li class="list-group-item">Tiken Chandra Das (2014-2015) </li>
+                                        <li class="list-group-item">Devaborniny Parasar (2013-2014)</li>
+                                        <li class="list-group-item">Namita Nath (2013-2014)</li>
+                                        <li class="list-group-item">Urbashi Mahanta (2013-2014) </li>
+                                        <li class="list-group-item">Dipjyoti Nath (2012-2013)</li>
+                                        <li class="list-group-item">Jyotirmoy Bharali (2012-2013)</li>
+                                        <li class="list-group-item">Subir Das (2012-2013)</li>
+                                        <li class="list-group-item">Sunita Pegu (2012-2013)</li>
+                                        <li class="list-group-item">Bimal Das (2011-2012)</li>
+                                        <li class="list-group-item">Dilip Saikia (2011-2012)</li>
+                                        <li class="list-group-item">Kakoli Bhattacharya (2011-2012)</li>
+                                        <li class="list-group-item">Lakhirupa Devi (2011-2012)</li>
+                                        <li class="list-group-item">Debabrat Borgohain (2010-2011)</li>
+                                        <li class="list-group-item">Himadri Medhi  (2010-2011)</li>
+                                        <li class="list-group-item">Koushik Saikia (2010-2011)</li>
+                                        <li class="list-group-item">Sushila Ahom (2010-2011)</li>
+                                        <li class="list-group-item">Rittwick Lahkar (2009-2010)</li>
+                                        <li class="list-group-item">Sujay Basak (2009-2010)</li>
+                                        <li class="list-group-item">Prasanta Kalita (2008-2009)</li>
+                                        <li class="list-group-item">Sandeep Chakraborty (2008-2009)</li>
+                                        <li class="list-group-item">Biswajit Choudhury (2007-2008)</li>
+                                        <li class="list-group-item">Bondita Goswami (2007-2008)</li>
+                                        <li class="list-group-item">Madhulekha Gogoi (2007-2008)</li>
+                                        <li class="list-group-item">Rubli Borah (2007-2008)</li>
+                                        <li class="list-group-item">Shyamanta Kumar Goswami (2007-2008)</li>
+                                        <li class="list-group-item">Tirthanath Sarma (2007-2008)</li>
+                                        <li class="list-group-item">Abhijit Hazarika (2006-2007)</li>
+                                        <li class="list-group-item">Barsha Rani Hazarika (2006-2007)</li>
+                                        <li class="list-group-item">Biplab Nath (2006-2007)</li>
+                                        <li class="list-group-item">Debajeet Kumar Bora (2006-2007)</li>
+                                        <li class="list-group-item">Kunal Bora (2006-2007)</li>
+                                        <li class="list-group-item">Arup Jyoti Choudhury (2005-2006)</li>
+                                        <li class="list-group-item">Sukanta Das (2005-2006)</li>
+                                        <li class="list-group-item">Vikash Tiwari (2004-2005)</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="trainees" role="tabpanel" aria-labelledby="trainees-tab">
+                                     <div class="list-group">
+                                        <li class="list-group-item">Sanjana Kumari (IIT, Patna, Bihar)</li>
+                                        <li class="list-group-item">Anjul Khadriya (NIT, Rourkela, Odisha)</li>
+                                        <li class="list-group-item">Shashank Priya (NIFFT, Ranchi, Jharkhand)</li>
+                                        <li class="list-group-item">Siddhartha Ghosh (NIT, Shillong, Meghalaya)</li>
+                                        <li class="list-group-item">Jayanta Bera (Central University, Jaipur, Rajastan)</li>
+                                        <li class="list-group-item">Anil Kumar (NIT, Manipur)</li>
+                                        <li class="list-group-item">Nishigandha Bankar (YCIS, Satara, Maharastra)</li>
+                                        <li class="list-group-item">Dhrubajyoti Bhattacharjya</li>
+                                        <li class="list-group-item">Sriram</li>
+                                        <li class="list-group-item">Amit Kumar </li>
+                                        <!-- Add more items as needed -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Content Container End -->
+
+
+    
+
+
+
+
+
+
+   
+
+<!-- Footer Start -->
+    <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5 py-5">
+                <div class="col-lg-6 pe-lg-5">
+                    <a href="index.html" class="navbar-brand">
+                        <!-- <h1 class="h4 text-primary mb-0">ADVANCED FUNCTIONAL MATERIAL LABORATORY</span></h1> -->
+                        <h4 class="h4 text-light mb-4">Address</span></h4> 
+                    </a>
+                    <p><i class="fa fa-map-marker-alt me-2"></i>Napaam, Tezpur University</p>
+                    <p><i class="fa fa-phone-alt me-2"></i> +91-3712-275560</p>
+                    <p><i class="fa fa-envelope me-2"></i>pdeb@tezu.ernet.in</p>
+                    <p>Visitor Count: <span id="visitorCount">0</span></p>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="row g-5">
+                        <div class="col-sm-6">
+                            <h4 class="text-light mb-4">Quick Links</h4>
+                            <a class="btn btn-link" href="research-area.html">Research Area</a>
+                            <a class="btn btn-link" href="research-projects.html">Research Projects</a>
+                            <a class="btn btn-link" href="team.html">Group Members</a>
+                            <a class="btn btn-link" href="open-positions.html">Open Positions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; <a href="#">Advanced Functional Material Laboratory - Department of Physics - Tezpur University</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+    <!---Scrool---->   
+    <script>
+    var newsContainer = document.getElementById('newsContainer');
+    var scrollSpeed = 1; // Adjust the scroll speed (lower value = faster scroll)
+
+    function scrollNews() {
+        if (newsContainer.scrollTop < newsContainer.scrollHeight - newsContainer.clientHeight) {
+            newsContainer.scrollTop += 1;
+        } else {
+            newsContainer.scrollTop = 0;
+        }
+    }
+
+    var scrollInterval = setInterval(scrollNews, scrollSpeed);
+
+    newsContainer.addEventListener('mouseenter', function() {
+        clearInterval(scrollInterval);
+    });
+
+    newsContainer.addEventListener('mouseleave', function() {
+        scrollInterval = setInterval(scrollNews, scrollSpeed);
+    });
+    </script>
+   <!---Scrool---->
+   
+   <!---Visitor Counter -->
+   <script>
+    // Fetch the visitor count from the server
+    fetch('visitor_count.php')
+        .then(response => response.text())
+        .then(count => {
+            document.getElementById('visitorCount').innerText = count;
+        })
+        .catch(error => {
+            console.error('Error fetching visitor count:', error);
+        });
+    </script>
+    <!---Visitor Counter -->
+
+    <script>
+    // Fade in effect
+    $('#content_container').fadeIn(1000);
+</script>
+
+</body>
+
+</html>
